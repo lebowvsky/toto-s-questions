@@ -19,13 +19,14 @@ h1 {
   margin-top: 3vh;
 }
 
-#question {
+.quote {
   font-size: 2rem;
 }
 
 .card {
   display: grid;
-  grid-template-rows: 30% 60%;
+  grid-template-rows: 30% 40%;
+  align-content: space-evenly;
   padding: 5vh;
   background-color: rgb(243, 116, 116);
   width: 100%;
